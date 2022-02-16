@@ -5,7 +5,7 @@ const server = http.createServer(function( req, res){
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.writeHead(200); //status code HTTP 200 / OK
 
-    let dataObj = { id: 1234567, name: "zain-azam-mirza", email: "zmmirza3@gmail.com"};
+    let dataObj = { id: 123, name: "zain-azam-mirza", email: "zmmirza3@gmail.com"};
     let data = JSON.stringify(dataObj);
     res.end(data);
 });
